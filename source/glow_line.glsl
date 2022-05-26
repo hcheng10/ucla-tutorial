@@ -40,7 +40,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     // the constant you add in the denominator means that the glow will "spread" more.
     // the numerator affects how concentrated the glow is at the center of the
     // line. Experiment with these values until your laser looks how you'd like!
-    float e = 5/(d+5); 
+    float e = 25/(d+1); 
 
     color = mix(color, lineColor, e);
 
